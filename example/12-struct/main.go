@@ -17,8 +17,8 @@ func main() {
 	d.password = "1024"
 
 	fmt.Println(a, b, c, d)                 // {wang 1024} {wang 1024} {wang 1024} {wang 1024}
-	fmt.Println(checkPassword(a, "haha"))   // false
-	fmt.Println(checkPassword2(&a, "haha")) // false
+	fmt.Println(checkPassword(a, "1024"))   // false
+	fmt.Println(checkPassword2(&a, "1024")) // false
 }
 
 func checkPassword(u user, password string) bool {
